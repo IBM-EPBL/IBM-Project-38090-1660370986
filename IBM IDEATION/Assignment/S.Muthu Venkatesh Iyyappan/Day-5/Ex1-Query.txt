@@ -1,0 +1,39 @@
+CREATE TABLE user(name VARCHAR(50),email VARCHAR(50),pwd INT,rollno INT);
+INSERT INTO user (name, email,pwd,rollno)
+VALUES ('db2class','db@gmail.com','123',30);
+
+CREATE TABLE user(name VARCHAR(50),email VARCHAR(50),rollno INT);
+INSERT INTO user (name, email,rollno)
+VALUES ('db2class','db@gmail.com',31);
+
+CREATE TABLE user(name VARCHAR(50),email VARCHAR(50),dept VARCHAR(50),rollno INT);
+INSERT INTO user (name, email,dept,rollno)
+VALUES ('db2class','db@gmail.com','cse',32);
+
+CREATE TABLE user(name VARCHAR(50),email VARCHAR(50),pwd INT,rollno INT);
+INSERT INTO user (name, email,pwd,rollno)
+VALUES ('db2class','db@gmail.com','123',33);
+
+CREATE TABLE user(name VARCHAR(50),email VARCHAR(50),pwd INT,rollno INT);
+INSERT INTO user (name, email,pwd,rollno)
+VALUES ('db2class','db@gmail.com','123',34);
+
+CREATE TABLE user(name VARCHAR(50),email VARCHAR(50),pwd INT,rollno INT);
+INSERT INTO user (name, email,pwd,rollno)
+VALUES ('db2class','db@gmail.com','123',35);
+
+CREATE TABLE user(name VARCHAR(50),email VARCHAR(50),pwd INT,rollno INT);
+INSERT INTO user (name, email,pwd,rollno)
+VALUES ('db2class','db@gmail.com','123',36);
+
+CREATE TABLE user(name VARCHAR(50),email VARCHAR(50),pwd INT,rollno INT);
+INSERT INTO user (name, email,pwd,rollno)
+VALUES ('db2class','db@gmail.com','123',37);
+
+CREATE TABLE user(name VARCHAR(50),email VARCHAR(50),pwd INT,rollno INT);
+INSERT INTO user (name, email,pwd,rollno)
+VALUES ('db2class','db@gmail.com','123',38);
+
+CREATE TABLE user(name VARCHAR(50),email VARCHAR(50),pwd INT,rollno INT);
+INSERT INTO user (name, email,pwd,rollno)
+VALUES ('db2class','db@gmail.com','123',39);
