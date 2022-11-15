@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Smart Fashion Recommender</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+function op()
+{
+     var field1=document.getElementById("field1").value;
+     var field2=document.getElementById("field2").value;
+    if(field1=="user" && field2=="user")
+    {
+	window.open("/User");
+    }    
+    
+     else{
+
+         alert("Please Enter Username & Password")
+    }
+}
+function op1()
+{
+     var uname=document.getElementById("uname").value;
+     var pwd=document.getElementById("pwd").value;
+    if(uname=="admin" && pwd=="admin")
+    {
+	window.open("/Admin");
+    }    
+    
+     else{
+
+         alert("Please Enter Username & Password")
+    }
+}
+</script>   
+<style>
+form{
+background-color:yellow; 
+border-style: solid;
+border-color: white;			
+padding: 20px 30px;
+border-radius:15px;
+box-shadow:14px 14px 14px 14px black;
+margin-left:250px;
+}
+.login-block {
+float:left;
+margin:0 49px 25px 0;
+}
+h1{
+color:white;
+font-family:algerian;
+}
+h2{
+background-color:blue; 
+width:1357px;
+height:46px;
+color:white;
+}
+a{
+color:white;
+}
+h3{
+margin-left:250px;
+color:white;
+font-size:17pt;
+font-family:timesnewroman;
+}
+label{
+font-family:timesnewroman;
+}
+.button {
+border-radius:15px;
+padding:2px 15px;
+background-color:blue;
+color:white;
+cursor: pointer;
+font-size:10pt;
+font-family:timesnewroman;
+}
+
+body{
+ width:1300px;
+ height:514px;
+ background-size: cover;
+}
+
+.w3{
+  background-color:teal;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  width: 500%;
+  color:white;
+  font-size:15pt;
+}
+input{
+font-family:timesnewroman;
+}
+</style>
+
+</head>
+<body> 
+<body style="background-image: url('static/img17.jpg')">
+  <h1><center>SMART FASHION RECOMMENDER</center></h1>
+ <div class="w3">
+    <a href='/' class='topnav-icons fa fa-home w3-bar-item w3-button' title='Home'>Home</a>
+     <a href='/About' class='topnav-icons fa fa-comments-o w3-bar-item w3-button' title='About'>About</a>
+     <a href='/Contact1' class='topnav-icons fa fa-address-card-o w3-bar-item w3-button' title='Contact'>Contact Us</a>
+  </div>
+
+ 
+
+<div class="login-block">
+  <h3>Admin Login</h3>
+
+<form style="width:300px">
+<label><b>Username : </label><br><input type=text id="uname"><br>
+<br>
+<label>Password :</label> <br><input type=password id="pwd"><br>
+<br>
+
+<button type="submit" class="button" onclick=op1()>LOGIN</button>
+  </form>
+</div>
+<div class="login-block">
+  <h3>User Login</h3> 
+
+<form style="width:300px">
+<label>Username :</label> <br><input type=text id="field1"><br>
+<br>
+<label>Password :</label> <br><input type=password id="field2"><br>
+<br>
+
+<button type="submit" class="button" onclick=op()>LOGIN</button>
+
+
+</form>
+</div>
+
+ 
+  
+  
+</body>
+</html>
